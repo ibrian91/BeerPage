@@ -1,0 +1,73 @@
+.image-list {
+  display: flex; /* Hace que los elementos sean flexibles (en línea) */
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 50px;
+  gap: 20px; /* Espacio entre las imágenes */
+}
+
+.avatar img {
+  display: block;
+  /* border-radius: 50%; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.beer-container {
+  border: 2px solid #ccc; /* Borde alrededor del contenedor */
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+li {
+  list-style-type: none;
+}
+
+.beer-name {
+  font-size: 17px;
+  margin-left: 5%;
+}
+
+.beer-type {
+  font-size: 15px;
+  margin-left: 5%;
+}
+
+.beer-avg {
+  font-size: 12px;
+  margin-left: 5%;
+}
+
+.title-BeerPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: "100vh";
+}
+
+.button-comprar {
+  font-size: 12px;
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto; /* Ajustar el ancho según sea necesario */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  padding: 5px 10px; /* Espacio interior del botón */
+  border: none; /* Eliminar el borde del botón si es necesario */
+  border-radius: 5px; /* Radio de borde del botón */
+}
+
+.sub-title-BeerPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: "100vh";
+}
